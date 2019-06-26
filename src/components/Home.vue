@@ -194,7 +194,8 @@ export default {
 				tagsUsed: this.tagsUsed,
 				completed: false,
 				editing: false
-			}
+      }
+      this.$store.dispatch('newTask', task)
 			console.log(task)
 
 			//Reset

@@ -29,9 +29,9 @@
 
 <script>
 export default {
-    data () {
-        return {
-
+  computed: {
+    tasks() {
+      return this.$store.getters.tasks
     }
   }
 }
